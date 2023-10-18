@@ -8,7 +8,28 @@ export abstract class Bebe{
         this.peso = _peso;
         this.altura =_altura;
     }
-    public setNome
+    public setNome (_nome : string):void{
+        this.nome = _nome;
+    }
+
+    public getNome () : string {
+        return this.nome;
+    }
+    public setPeso (_peso: number):void{
+        this.peso = _peso;
+    }
+
+    public getPeso () : number {
+        return this.peso;
+    }
+    public setAltura (_altura: number ):void{
+        this.altura = _altura;
+    }
+
+    public getAltura (): number {
+        return this.altura;
+    }
+
 
 }
 
